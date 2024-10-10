@@ -1,0 +1,11 @@
+name: First-test-WF
+on: workflow_dispatch
+
+jobs: 
+  log:
+    runs-on: macos-latest
+    steps:
+      - name: step1
+        run: echo "Step number 1"
+      - name: step2
+        run: echo "Step number 2"
